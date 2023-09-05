@@ -55,18 +55,19 @@ public class Module01 {
 		System.out.println(salary);
 	}
 	public static boolean hasSharedDigit(int num01, int num02) {
-		if(num01<10 && num02<10) {
-			return false;
-		}
-		if(num01>99 && num02>99) {
-			return false;
-		}
-		int digit = 0;
-	    while(int i<num01 || i<num02) {
-	    	
-	    	i /= 10;
-	    }
-		
 		return false;
+//		if(num01<10 && num02<10) {
+//			return false;
+//		}
+//		if(num01>99 && num02>99) {
+//			return false;
+//		}
+//		int digit = 0;
+//	    while(int i<num01 || i<num02) {
+//	    	
+//	    	i /= 10;
+//	    }
+//		
+//		return false;
 	}
 }
